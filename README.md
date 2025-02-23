@@ -1,6 +1,6 @@
 # Disabling Windows Firewall and Installing SQL Server to Create Vulnerabilities
 
-## Overview
+## Project Overview
 This project explores security risks associated with misconfigured Windows environments by disabling Windows Firewall and installing SQL Server with insecure settings. The goal is to analyze logging, network accessibility, and potential attack vectors.
 
 ## Objectives  
@@ -13,7 +13,20 @@ This project explores security risks associated with misconfigured Windows envir
 - An Azure account with a deployed VMs (Windows and Linux) with open Network Security Groups
 - Admin access to `windows-vm`
 
-  ## Environment Setup  
+## Technologies Used
+
+- Microsoft Azure
+- Windows Virtual Machines (VM)
+- Linux Virtual Machines (VM)
+- Remote Desktop Protocol (RDP)
+- Microsoft SQL Server (MS SQL)
+- SQL Server Management Studio (SSMS)
+- Secure Shell (SSH)
+- Windows Event Logs
+- Linux System Logs
+
+  
+## Lab Steps 
 
 ### 1. Remote Into the Windows VM 
 I start by remoting into the Windows VM using RDP.  
@@ -62,7 +75,7 @@ ssh labuser@20.62.45.75
 <img width="800" alt="Screenshot 2025-02-22 at 9 58 57 PM" src="https://github.com/user-attachments/assets/eed80c65-957d-4aab-bad6-67b67c40b575" />
 
 ## Next Steps
-These vulnerabilities set the stage for further exploitation and analysis in future projects. For now, I power off the VMs to conserve costs.
+These vulnerabilities set the stage for further exploitation and analysis in future projects. 
 
 ## Takeaways
 
