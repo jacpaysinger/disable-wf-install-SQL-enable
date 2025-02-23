@@ -18,12 +18,12 @@ This project explores security risks associated with misconfigured Windows envir
 - Microsoft Azure
 - Windows Virtual Machines (VM)
 - Linux Virtual Machines (VM)
-- Remote Desktop Protocol (RDP)
-- Microsoft SQL Server (MS SQL)
+- Windows Firewall
+- Microsoft SQL Server (SQL Server Evaluation 2019)
 - SQL Server Management Studio (SSMS)
+- Remote Desktop Protocol (RDP)
 - Secure Shell (SSH)
-- Windows Event Logs
-- Linux System Logs
+- Windows Event Viewer
 
   
 ## Lab Steps 
